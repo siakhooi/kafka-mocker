@@ -1,0 +1,2 @@
+usage: kafka-mocker [-h] [-v]
+kafka-mocker: error: unrecognized arguments: -p
