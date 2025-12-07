@@ -1,8 +1,10 @@
 help:
 clean:
 	rm -rf dist target coverage \
+	.coverage \
 	src/kafka_mocker/__pycache__ \
-	tests/__pycache__
+	tests/__pycache__ \
+	.pytest_cache
 run:
 	poetry run kafka-mocker
 set-version:
